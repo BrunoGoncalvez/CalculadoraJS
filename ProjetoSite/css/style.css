@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#nav{
+    display: flex;
+    height: 4rem;
+    background-color: darkslategrey;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+#nav #list-menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;    
+}
+
+#nav #list-menu li{
+    text-decoration: none;   
+    letter-spacing: 2px;
+}
+
+#nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+}
+
+#logo{
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
+.area-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    padding: 8px;
+    gap: 10px;
+}
+
+.card{
+    text-align: center;
+    width: 190px;
+    height: 350px;   
+}
+
+.img-card{
+    width: 100%;
+    height: 280px;
+}
+
+.title-card{
+    font-size: 18px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
